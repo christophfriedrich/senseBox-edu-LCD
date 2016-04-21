@@ -32,11 +32,21 @@ Damit kann man das Wettergeschehen an seinem eigenen Wohnort beobachten, was fü
 #### Hardwarekonfiguration
 Die Sensoren befinden sich auf einem eigenen, zurechtgesägten Breadboard. Dieses wird in einem eigenen "Sensorhäuschen" untergebracht und per vieradrigem Kabel mit dem Hauptgehäuse verbunden. Dort befinden sich der Genuino Uno und das Display. Die Strom- und Internetversorgung erfolgt über ein Power-over-Ethernet-Flachbandkabel, das auch durch ein geschlossenes Fenster gelegt werden kann.
 
+<image src="sensor-breakout.jpg"/>
+
+<image src="sensor-case.jpg"/>
+
 Die Verkabelung des Displays mit dem Genuino erwies sich als schwierig. Man benötigt zur Ansteuerung des Displays mindestens sechs digitale Ports. Das unvermeidbare Ethernet-Shield benutzt jedoch bereits viele der am Genuino zur verfügung stehenden Ports intern, sodass nur bestimmte zur weiteren Nutzung frei bleiben. Das ist bei der Verkabelung zu bedenken.
+
+<image src="lcd-verkabelung-detail.jpg"/>
 
 Verkabelung:
 
 <image src="verkabelung.png"/>
+
+<image src="ueberblick.jpg"/>
+
+<image src="im-gehaeuse.jpg"/>
 
 #### Softwaresketch
 Die Ansteuerung der Sensoren erfolgt über die jeweils auf der Hersteller-Seite von Watterot verlinkten Bibliotheken, bzw. beim UV-Sensor über eine selbst programmierte Methode mithilfe der Wire-Bibliothek.
@@ -383,7 +393,4 @@ Die Station wurde auf der Terasse eines Hauses in Münster-Kinderhaus aufgestell
 
 <image src="standort.jpg"/>
 
-## Kontakt
-Jasper Buß, Christoph Friedrich
-christoph.friedrich@uni-muenster.de
-Münster, den 19. April 2016
+Münster, im April 2016
