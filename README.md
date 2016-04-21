@@ -391,6 +391,8 @@ Nach Absenden des Formulars erhält man eine E-Mail mit einem Arduino-Sketch, de
 ## Stationsaufbau
 Die Station wurde auf der Terasse eines Hauses in Münster-Kinderhaus aufgestellt. Der Standort zeigt Richtung Süden, ist recht sonnig, jedoch sehr windgeschützt.
 
-<image src="standort.jpg"/>
+<image src="standort.JPG"/>
+
+<image src="standort-detail.JPG"/>
 
 Münster, im April 2016
